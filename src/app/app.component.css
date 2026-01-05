@@ -1,0 +1,29 @@
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.filter-btn {
+    background: transparent;
+    border: 1px solid var(--border-light);
+    color: var(--text-muted);
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+}
+
+.filter-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.filter-btn.active {
+    background: var(--bg-hover);
+    color: var(--text-main);
+    border-color: var(--primary);
+}
+
+.footer {
+    border-top: 1px solid var(--border-light);
+    padding: 2rem 0;
+    color: var(--text-dim);
+    font-size: 0.9rem;
+}
