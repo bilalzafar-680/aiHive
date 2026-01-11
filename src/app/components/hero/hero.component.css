@@ -106,3 +106,62 @@ input {
         font-size: 2.5rem;
     }
 }
+
+@media (min-width: 1400px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.25rem;
+        max-width: 700px;
+    }
+
+    .search-container {
+        max-width: 700px;
+    }
+
+    input {
+        font-size: 1.15rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .hero-title {
+        font-size: 6rem;
+    }
+
+    .hero-subtitle {
+        font-size: 2rem;
+        max-width: 1000px;
+        margin-bottom: 4rem;
+    }
+
+    .search-container {
+        max-width: 1000px;
+        margin-bottom: 3rem;
+    }
+
+    .search-input-wrapper {
+        padding: 1rem 2rem;
+    }
+
+    .search-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    input {
+        font-size: 1.5rem;
+    }
+
+    .tag {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .glow-bg {
+        width: 1400px;
+        height: 1400px;
+    }
+}
